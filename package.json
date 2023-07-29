@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/pavelgradobik/playwrightworkshop.git"
   },
-  "private": true,
+  "private": false,
   "author": "",
   "license": "ISC",
   "bugs": {

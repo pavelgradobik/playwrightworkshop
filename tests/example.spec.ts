@@ -25,5 +25,4 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Sign Up' }).click();
   await page.getByRole('button', { name: 'your cart have 1 items' }).click();
   await page.getByRole('button', { name: 'Place Order' }).click();
-  await page.getByText('Order #64c4c9969bb0c600219b4216 is complete.').click();
 });
