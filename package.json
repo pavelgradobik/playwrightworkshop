@@ -1,0 +1,22 @@
+{
+  "name": "pwworkshop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx playwright test" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelgradobik/playwrightworkshop.git"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelgradobik/playwrightworkshop/issues"
+  },
+  "homepage": "https://github.com/pavelgradobik/playwrightworkshop#readme",
+  "devDependencies": {
+    "@playwright/test": "1.36.2"
+  }
+}
