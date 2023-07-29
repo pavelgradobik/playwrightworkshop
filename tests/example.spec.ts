@@ -15,7 +15,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Proceed To Checkout' }).click();
   await page.getByRole('button', { name: 'Create an account' }).click();
   await page.getByRole('main').getByPlaceholder('Please Enter Your Email').click();
-  await page.getByRole('main').getByPlaceholder('Please Enter Your Email').fill('someaddres@mail.co');
+  await page.getByRole('main').getByPlaceholder('Please Enter Your Email').fill(`someaddres${Date.now()}@mail.co`);
   await page.getByRole('main').getByPlaceholder('Please Enter Your Email').press('Tab');
   await page.getByPlaceholder('Please Enter Your First Name').fill('test');
   await page.getByPlaceholder('Please Enter Your First Name').press('Tab');
